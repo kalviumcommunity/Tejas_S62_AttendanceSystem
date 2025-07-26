@@ -14,7 +14,7 @@ public class AttendanceRecord{
             this.status = status;
         } else {
             this.status = status;
-            System.out.println("Invalid attendance status provided. Please use 'Present' or 'Absent'.");
+            System.out.println("Invalid attendance status provided. Please use 'Present' or 'Absent'.\n");
             // throw new IllegalArgumentException("Status must be 'Present' or 'Absent'");
         }
     }
@@ -30,9 +30,9 @@ public class AttendanceRecord{
         }
 
         public void displayDetails(){
-            System.out.println("Attendance Record:");
-            System.out.println("Student ID: " + studentId);
-            System.out.println("Course ID: " + courseId);
-            System.out.println("Status: " + status);
+            System.out.print("Attendance Record:");
+            System.out.print("Student ID: " + studentId);
+            System.out.print(", Course ID: " + courseId);
+            System.out.print(", Status: " + status + "\n");
     }
 }

@@ -15,7 +15,7 @@ public class Course{
     }
 
     public void displayDetails(){
-        System.out.println("Course ID: " + courseId);
-        System.out.println("Course Name: " + courseName);
+        System.out.print("Course ID: " + courseId);
+        System.out.print(", Course Name: " + courseName + "\n");
     }
 }
